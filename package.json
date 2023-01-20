@@ -1,0 +1,39 @@
+{
+  "name": "express-jwt",
+  "version": "1.0.0",
+  "description": "An express REST API with JWT authentication",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "@udz-codes",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  },
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "acl": "^0.4.11",
+    "axios": "^1.2.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "connect-memcached": "^2.0.0",
+    "connect-timeout": "^1.9.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.3",
+    "google-auth-library": "^8.7.0",
+    "helmet": "^6.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.3.0",
+    "memcached": "^2.2.2",
+    "mongoose": "^5.13.8",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "request": "^2.88.2",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
